@@ -1,0 +1,79 @@
+.sidebar {
+	box-sizing: border-box;
+	position: absolute;
+	top: 0; bottom: 0;
+
+	width: 23.5rem;
+	padding: 1rem;
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: #F7F7F7;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* ------ HEADER STYLING ------ */
+.logoWrapper  {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+.logo {
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 2.1rem;
+	text-align: center;
+
+	margin: 0;
+	padding: 0.1rem 2rem 0.75rem;
+
+	color: #2F2D2E;
+	box-shadow: 0px 2px #D6D6D6;
+}
+.sidebarLabel {
+	font-weight: bold;
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	letter-spacing: 0.05em;
+
+	margin: 1.8rem 0;
+	
+	color: #707070;
+}
+
+
+/* ------ OPTIONS STYLING ------ */
+.optionsWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.options {
+	width: 85%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.optionGroup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.optionButton {
+	margin: 0 0.9rem;
+}
+.optionButton:hover {
+	cursor: pointer;
+}
+.divider {
+	width: 2px;
+	height: 100%;
+
+	background-color: #747474;
+}
