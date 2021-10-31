@@ -9,7 +9,7 @@ import {ReactComponent as CollapseIcon} from '../icons/collapse_icon.svg';
 
 const folderData = [
 	{
-		"name": "Non-technical",
+		"name": "Technical",
 		"content": [
 			{
 				"id": "joshua_andrews",
@@ -29,15 +29,38 @@ const folderData = [
 		],
 	},
 	{
-		"name": "Technical",
+		"name": "Non-technical",
 		"content": [
-
+			{
+				"id": "jane_doe",
+				"thumbnail": "assets/default_persona.png",
+				"name": "Jane Doe",
+			},
+			{
+				"id": "ferdinand_werthers",
+				"thumbnail": "assets/default_persona.png",
+				"name": "Ferdinand Werthers",
+			},
 		],
 	},
 	{
 		"name": "Community Developer",
 		"content": [
-
+			{
+				"id": "holly_daniels",
+				"thumbnail": "assets/default_persona.png",
+				"name": "Holly Daniels",
+			},
+			{
+				"id": "yves_fourtier",
+				"thumbnail": "assets/default_persona.png",
+				"name": "Yves Fourtier",
+			},
+			{
+				"id": "francisco_montoya",
+				"thumbnail": "assets/default_persona.png",
+				"name": "Francisco Montoya",
+			},
 		],
 	},
 ];
