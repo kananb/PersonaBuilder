@@ -16,13 +16,13 @@
 
 
 /* ------ HEADER STYLING ------ */
-.logoWrapper  {
+.sidebar .logoWrapper  {
 	width: 100%;
 
 	display: flex;
 	justify-content: center;
 }
-.logo {
+.sidebar .logo {
 	font-weight: 600;
 	font-size: 1.6rem;
 	line-height: 2.1rem;
@@ -34,44 +34,46 @@
 	color: #2F2D2E;
 	box-shadow: 0px 2px #D6D6D6;
 }
-.sidebarLabel {
+.sidebar .sidebarLabel {
 	font-weight: bold;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 	letter-spacing: 0.05em;
 
-	margin: 1.8rem 0;
+	margin-top: 1.8rem;
 	
 	color: #707070;
 }
 
 
 /* ------ OPTIONS STYLING ------ */
-.optionsWrapper {
+.sidebar .optionsWrapper {
 	width: 100%;
+	margin: 0.5rem 0;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.options {
+.sidebar .options {
 	width: 85%;
 	
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.optionGroup {
+.sidebar .optionGroup {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.optionButton {
+.sidebar .optionButton {
 	margin: 0 0.9rem;
 }
-.optionButton:hover {
+.sidebar .optionButton:hover {
 	cursor: pointer;
 }
-.divider {
+.sidebar .divider {
 	width: 2px;
 	height: 100%;
 

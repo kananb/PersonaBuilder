@@ -11,7 +11,21 @@ const folderData = [
 	{
 		"name": "Non-technical",
 		"content": [
-
+			{
+				"id": "joshua_andrews",
+				"thumbnail": "assets/default_persona.png",
+				"name": "Joshua Andrews",
+			},
+			{
+				"id": "john_kudo",
+				"thumbnail": "assets/default_persona.png",
+				"name": "John Kudo",
+			},
+			{
+				"id": "alex_megos",
+				"thumbnail": "assets/default_persona.png",
+				"name": "Alexander Megos",
+			},
 		],
 	},
 	{
