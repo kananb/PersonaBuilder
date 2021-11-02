@@ -17,18 +17,20 @@ function App() {
 			"Analytical", "Thoguhtful", "Impatient",
 			"Efficient", "Progressive",
 		],
-		"age": 41,
-		"married": false,
-		"sex": "male",
-		"kids": 0,
-		"location": {
-			"city": "Los Angeles",
-			"state": "CA",
-		},
-		"occupation": "Software Engineer",
-		"income": {
-			"salary": 190000,
-			"benefits": true,
+		"demographic": {
+			"age": 41,
+			"married": false,
+			"sex": "male",
+			"kids": 0,
+			"location": {
+				"city": "Los Angeles",
+				"state": "CA",
+			},
+			"occupation": "Software Engineer",
+			"income": {
+				"salary": 190000,
+				"benefits": true,
+			},
 		},
 		"background": [
 			"Enjoys the outdoors and loves to hike",
