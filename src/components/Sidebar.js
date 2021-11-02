@@ -13,7 +13,7 @@ const folderData = [
 		"content": [
 			{
 				"id": "joshua_andrews",
-				"thumbnail": "assets/default_persona.png",
+				"thumbnail": "assets/joshua_andrews.png",
 				"name": "Joshua Andrews",
 			},
 			{

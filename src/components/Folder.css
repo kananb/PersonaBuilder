@@ -52,7 +52,7 @@
 	justify-content: center;
 }
 .folder .persona {
-	padding: 0.25rem;
+	padding: 0.5rem 0.25rem;
 
 	border-radius: 5px;
 	
@@ -70,7 +70,9 @@
 .folder .personaThumbnail {
 	width: 2.1rem;
 	height: 2.1rem;
-	padding-right: 1rem;
+	margin-right: 1rem;
+
+	border-radius: 5px;
 }
 .folder .personaName {
 	font-weight: normal;

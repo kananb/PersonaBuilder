@@ -1,0 +1,135 @@
+.personaPage {
+	height: 100%;
+	width: auto;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/* ------ ARROW STYLING ------ */
+.personaPage .arrow {
+	width: 2.6rem;
+	margin: 2rem;
+}
+.personaPage .arrow:hover {
+	cursor: pointer;
+}
+.personaPage .arrow svg {
+	width: auto;
+	height: 2.6rem;
+}
+.personaPage .previousButton {
+	box-sizing: content-box;
+	margin-left: 5.5rem;
+	
+	transform: rotateZ(180deg);
+}
+.personaPage .nextButton {
+	box-sizing: content-box;
+	margin-right: 5.5rem;
+}
+.personaPage .arrow.end svg path {
+	stroke: #CECECE;
+}
+
+
+
+/* ------ PAGE STYLING ------ */
+.personaPage .page {
+	box-sizing: border-box;
+	min-width: 55.7rem;
+	max-width: 55.7rem;
+	min-height: 61.9rem;
+	padding: 3rem;
+
+	background-color: #F8F7F7;
+	box-shadow: 0px 15px 40px #5742370d,
+				0px 15px 25px #5742371a,
+				0px 10px 10px #5742371a;
+}
+
+/* PAGE HEADING STYLING */
+.personaPage .heading {
+	display: flex;
+}
+.personaPage .picture {
+	width: 19.4rem;
+	margin-right: 2rem;
+
+	border-radius: 5px;
+}
+.personaPage .headingText {
+	flex-grow: 1;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.personaPage .name {
+	font-weight: bold;
+	font-size: 2.85rem;
+	line-height: 3.85rem;
+
+	margin-bottom: 0;
+
+	color: #2F2D2E;
+}
+.personaPage .divider {
+	width: 55%;
+	height: 2px;
+	margin: 0.8rem 0;
+
+	background-color: #565656;
+}
+.personaPage .tagline {
+	font-weight: normal;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+
+	margin: 0 auto 0.8rem;
+
+	color: #424242;
+}
+.personaPage .traits {
+	display: flex;
+	flex-wrap: wrap;
+}
+.personaPage .trait {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	text-align: center;
+	
+	padding: 0.5rem 1.2rem;
+	margin: 0.4rem 0.6rem;
+	
+	border-radius: 20px;
+
+	background-color: #E7E7E7;
+	color: #4D4D4D;
+}
+.personaPage .trait:hover {
+	cursor: pointer;
+
+	background-color: #e0e0e0;
+}
+.personaPage .addTrait {
+	padding: 0.6rem;
+	
+	display: flex;
+	align-items: center;
+}
+.personaPage .addTrait svg {
+	width: auto;
+	height: 0.85rem;
+}
+
+/* PAGE HEADING STYLING */
+.personaPage .content {
+
+}
