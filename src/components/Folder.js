@@ -8,18 +8,21 @@ function Folder(props) {
 	const name = props.name || "Default";
 	const content = [];
 
+	const openPersona = (e) => {
+
+	};
+	const clickFolder = () => {
+		setOpen(!open);
+	};
+	
 	for (let persona of props.content) {
 		content.push(
-			<div className="persona">
+			<div className="persona" onClick={openPersona}>
 				<img className="personaThumbnail" src={persona.thumbnail} alt={persona.name + " thumbnail image"} />
 				<span className="personaName">{persona.name}</span>
 			</div>
 		);
 	}
-
-	const clickFolder = (e) => {
-		setOpen(!open);
-	};
 
 	return (
 		<div className={open ? "folder open" : "folder"}>

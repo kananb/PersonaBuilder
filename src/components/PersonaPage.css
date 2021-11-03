@@ -46,6 +46,9 @@
 	max-height: 61.9rem;
 	padding: 3rem;
 
+	display: flex;
+	flex-direction: column;
+
 	background-color: #F8F7F7;
 	box-shadow: 0px 15px 40px #5742370d,
 				0px 15px 25px #5742371a,
@@ -59,7 +62,8 @@
 	display: flex;
 }
 .personaPage .picture {
-	width: 19.4rem;
+	min-width: 19.4rem;
+	min-height: 19.4rem;
 	margin-right: 2rem;
 
 	border-radius: 5px;
@@ -71,6 +75,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 .personaPage .name {
 	font-weight: bold;
@@ -100,6 +105,7 @@
 .personaPage .traits {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .personaPage .trait {
 	font-family: "Roboto", sans-serif;
@@ -134,6 +140,8 @@
 
 /* PAGE CONTENT STYLING */
 .personaPage .content {
+	flex-grow: 1;
+	
 	display: grid;
 	grid-template: auto / 1fr 1fr 1fr;
 	grid-template-areas:
@@ -143,7 +151,7 @@
 	gap: 1.25rem;
 }
 .infoBox {
-	padding: 1rem;
+	padding: 0.75rem 0.5rem;
 
 	display: flex;
 	flex-direction: column;
@@ -155,8 +163,6 @@
 }
 /* DEMOGRAPHIC STYLING */
 .demographic {
-	padding: 0.5rem 1rem;
-	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -166,9 +172,12 @@
 	grid-template-columns: 1fr 1fr;
 }
 .demoAnswer {
-	margin: 0.5rem 1rem;
+	margin: 1rem 1rem;
 	
 	text-transform: capitalize;
+}
+.shortAnswerWrapper .demoAnswer {
+	margin: 0.5rem 1rem;
 }
 .personaPage .demoAnswer {
 	display: flex;
@@ -177,6 +186,8 @@
 	color: #2F2D2E;
 }
 .personaPage .demoLabel {
+	font-family: "Roboto", sans-serif;
+	
 	font-weight: bold;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
@@ -188,13 +199,15 @@
 }
 /* LIST INFO STYLING */
 .infoLabel {
+	font-family: "Roboto", sans-serif;
+	
 	font-weight: bold;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	line-height: 1.1rem;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 
-	margin-bottom: 0.8rem; 
+	margin-bottom: 0.5rem; 
 
 	color: #2F2D2E;
 }
