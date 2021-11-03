@@ -67,6 +67,9 @@
 .folder .persona:active {
 	background-color: #EBEBEB;
 }
+.persona.current {
+	background-color: #EBEBEB;
+}
 .folder .personaThumbnail {
 	width: 2.1rem;
 	height: 2.1rem;

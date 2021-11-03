@@ -10,11 +10,10 @@ import {ReactComponent as CollapseIcon} from '../icons/collapse_icon.svg';
 
 function Sidebar(props) {
 	const folderData = props.data || [];
-	const current = props.current || 0;
 	const folders = [];
 	for (let data of folderData) {
 		folders.push(
-			<Folder name={data.name} content={data.content} />
+			<Folder setPersona={props.setPersona} name={data.name} content={data.content} current={props.current} />
 		);
 	}
 	
